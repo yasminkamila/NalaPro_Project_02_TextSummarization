@@ -8,7 +8,9 @@
 - Muh.idris
 
 ## Data
-Menggunakan dataset Liputan 6 : https://drive.google.com/file/d/1ixaIO24XBZX-BFVyHIk0FG0kI2W3lACD/view
+- Menggunakan dataset Liputan 6 : https://drive.google.com/file/d/1ixaIO24XBZX-BFVyHIk0FG0kI2W3lACD/view
+- Dataset dari dashboard diletakan di folder Script/data/json/ ,  sehingga locationnya menjadi NalaPro_Project_02_TextSummarization/Script/data/json/liputan6_data
+- Dataset bisa diambil di URL diatas, karena data besar maka tidak disertakan di git dan didaftarkan didalam gitignore 
 
 # Model
 - Memanfaatkan model BERT untuk proses encoding dan decoding
