@@ -1,5 +1,9 @@
-Script/data/json/liputan6_data/*
+Script/data/**/*.json
 
-!Script/data/json/liputan6_data/canonical/**/.gitkeep
+#Script/data/json/liputan6_data/canonical/dev/*.json
+#Script/data/json/liputan6_data/canonical/test/*.json
+#Script/data/json/liputan6_data/canonical/train/*.json
 
-!Script/data/json/liputan6_data/xtreme/**/.gitkeep
+#Script/data/json/liputan6_data/xtreme/dev/*.json
+#Script/data/json/liputan6_data/xtreme/test/*.json
+
