@@ -7,6 +7,6 @@ Script/data/**/*.json
 #Script/data/json/liputan6_data/xtreme/dev/*.json
 #Script/data/json/liputan6_data/xtreme/test/*.json
 
-Script/models/google_mt5_small_v1/
+Script/models/*
 
-Script/models/bertsum_indo_v1/
+Script/models/README.md
