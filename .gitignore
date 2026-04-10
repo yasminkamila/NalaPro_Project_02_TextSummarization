@@ -1,12 +1,42 @@
-Script/data/**/*.json
+#Virtual environment
+venv/
+env/
+.env/
+.venv
 
-#Script/data/json/liputan6_data/canonical/dev/*.json
-#Script/data/json/liputan6_data/canonical/test/*.json
-#Script/data/json/liputan6_data/canonical/train/*.json
+#python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.python
 
-#Script/data/json/liputan6_data/xtreme/dev/*.json
-#Script/data/json/liputan6_data/xtreme/test/*.json
+#Jupyter
+.ipynb_checkpoints/
+*.ipynb
 
+#Model files
+models/
+*.bin
+*.pt
+*.pth
+
+#Data (Jika besar, gunakan Git LFS atau simpan di cloud)
+data/
+*.csv
+*.json
+
+#outputs
+outputs/
+logs/
+*.log
+
+#IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+**/.DS_Store
 Script/models/*
 
 Script/models/README.md
