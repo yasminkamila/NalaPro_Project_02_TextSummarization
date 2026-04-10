@@ -9,8 +9,9 @@
 
 ## Data
 - Menggunakan dataset Liputan 6 : https://drive.google.com/file/d/1ixaIO24XBZX-BFVyHIk0FG0kI2W3lACD/view
-- Dataset dari dashboard diletakan di folder Script/data/json/ ,  sehingga locationnya menjadi NalaPro_Project_02_TextSummarization/Script/data/json/liputan6_data
-- Dataset bisa diambil di URL diatas, karena data besar maka tidak disertakan di git dan didaftarkan didalam gitignore 
+- Dataset yang digunakan sebanyak train : 5000, dev:1070, dan test : 1070. diambil menggunakan metode random
+- Dataset diletakan di kaggle url : https://www.kaggle.com/datasets/nalaprogroup/clean-data-project2-v2
+- Tujuan diletakan di kagle agar dataset tidak bergerak sehingga proses training dilakukan dengan dataset yang sama
 
 # Model
 - Google/mt5-small
