@@ -13,7 +13,10 @@
 - Dataset bisa diambil di URL diatas, karena data besar maka tidak disertakan di git dan didaftarkan didalam gitignore 
 
 # Model
-- Memanfaatkan model BERT untuk proses encoding dan decoding
+- Google/mt5-small
+- indobenchmark/indobert-base-p1
+- indobenchmark/indobert-base-p2
+- T5
 
 # Struktur Folder
 ## Document
